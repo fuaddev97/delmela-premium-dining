@@ -6,8 +6,8 @@ export default function Logo({ className = "", priority = false }) {
       className={`brand-logo ${className}`.trim()}
       src={logoAsset}
       alt="Delmela"
-      width="768"
-      height="768"
+      width="180"
+      height="180"
       loading={priority ? "eager" : "lazy"}
     />
   );
