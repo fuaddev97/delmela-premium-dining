@@ -7,7 +7,9 @@ export default function MenuSection() {
         <div className="section-marker light"><span>03</span><span>The menu</span></div>
         <h2>Guided by the<br /><em>season.</em></h2>
         <p>Familiar ingredients, surprising combinations and the warmth of cooking over fire.</p>
-        <a className="button-link light-button" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+        <a className="editorial-link editorial-link-light" href="#menu">
+          <span>Explore the menu</span><span className="editorial-link-arrow" aria-hidden="true">↗</span>
+        </a>
       </div>
       <ol className="menu-list reveal">
         {menuCategories.map((category, index) => (
