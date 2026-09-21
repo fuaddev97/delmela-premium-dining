@@ -14,7 +14,9 @@ export default function StorySection() {
       <div className="story-copy reveal">
         <p className="lead">Delmela is a meeting place for generous cooking, shared tables and the pleasure of staying a little longer.</p>
         <p>Our kitchen follows the seasons, drawing on familiar flavours and giving them a contemporary voice. Every plate is composed with care, but made to be enjoyed without ceremony.</p>
-        <a className="text-link" href="#story">Discover our story <span aria-hidden="true">↗</span></a>
+        <a className="editorial-link" href="#story">
+          <span>Discover our story</span><span className="editorial-link-arrow" aria-hidden="true">↗</span>
+        </a>
       </div>
     </section>
   );
