@@ -16,7 +16,7 @@ export default function Hero() {
         <a className="circle-link" href="#story" aria-label="Discover Delmela">
           <span>Discover</span><span aria-hidden="true">↓</span>
         </a>
-        <p>Riyadh<br />Saudi Arabia</p>
+        <p>Addis Ababa<br />Ethiopia</p>
       </div>
     </section>
   );
