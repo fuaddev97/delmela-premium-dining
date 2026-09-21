@@ -272,7 +272,7 @@ em { font-weight: 400; color: var(--color-clay); }
 
 @media (max-width: 380px) {
   .header-logo { width: 7.75rem; }
-  .footer-logo { width: 12.5rem; }
+  .footer-logo { width: 10rem; }
   .editorial-link { width: 100%; gap: 2rem; font-size: 1rem; }
 }
 
