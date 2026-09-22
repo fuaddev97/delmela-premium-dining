@@ -18,22 +18,22 @@ export const imagery = {
 export const dishes = [
   {
     number: "01",
-    name: "Ember Lamb",
-    description: "Slow-braised lamb, smoked aubergine, garden herbs and a rich roasting jus.",
+    name: "Chicken Wrap",
+    description: "Grilled chicken breast wrapped in soft flatbread with fresh lettuce, onions, tomatoes, and our special sauce. Also available in beef and tuna, prepared fresh daily.",
     image: lambImage,
     size: "portrait",
   },
   {
     number: "02",
-    name: "Coastal Sea Bass",
-    description: "Crisp sea bass, preserved lemon, fennel and a bright green herb dressing.",
+    name: "Savory Chicken Curry",
+    description: "Warm, savory chicken curry served over rice with rich spices in every bite. A comforting bowl that brings bold flavor and satisfying heat to your table.",
     image: seabassImage,
     size: "landscape",
   },
   {
     number: "03",
-    name: "Burnt Honey",
-    description: "Silken custard, roasted fig, pistachio and a touch of wildflower honey.",
+    name: "Strawberry Pancakes",
+    description: "Stacked high, drizzled with strawberry syrup, and topped with fresh whipped cream and strawberries.",
     image: dessertImage,
     size: "portrait",
   },

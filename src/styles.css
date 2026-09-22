@@ -56,7 +56,7 @@ img { display: block; width: 100%; }
 .hero-media, .hero-shade { position: absolute; inset: 0; }
 .hero-media { animation: heroReveal 1.6s var(--ease-editorial) both; }
 .hero-media img { height: 100%; object-fit: cover; transform: scale(1.03); animation: heroScale 2.2s var(--ease-editorial) both; }
-.hero-shade { background: linear-gradient(180deg, rgba(10,11,9,.38), rgba(10,11,9,.08) 40%, rgba(10,11,9,.58)); }
+.hero-shade { background: linear-gradient(180deg, rgba(10, 11, 9, 0.178), rgba(10, 11, 9, 0.356) 40%, rgba(10, 11, 9, 0.265)); }
 .hero-copy { position: relative; z-index: 2; min-height: 100svh; display: flex; flex-direction: column; justify-content: center; padding: 9rem var(--page-gutter) 10rem; }
 .hero-kicker { margin: 0 0 1.5rem .4vw; font-size: .72rem; text-transform: uppercase; letter-spacing: .18em; animation: copyIn .8s .7s both; }
 .hero h1 { margin: 0; font: 400 clamp(4.5rem, 10.7vw, 10rem)/.82 var(--font-display); letter-spacing: 0; }
